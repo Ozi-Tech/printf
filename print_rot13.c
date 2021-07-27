@@ -7,7 +7,7 @@
  *
  * Return: number of chars printed
  */
-char print_R(va_list R)
+int print_R(va_list R)
 {
 	char *str;
 	unsigned int i, j;

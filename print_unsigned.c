@@ -6,7 +6,7 @@
  *
  * Return: number of digits printed
  */
-void print_u(va_list u)
+int print_u(va_list u)
 {
 	unsigned int a[10];
 	unsigned int i, m, n, sum;
