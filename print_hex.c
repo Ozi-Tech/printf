@@ -7,7 +7,7 @@
  *
  * Return: number of digits printed
  */
-void print_hex(unsigned int n, unsigned int c)
+int print_hex(unsigned int n, unsigned int c)
 {
 	unsigned int a[8];
 	unsigned int i, m, sum;
